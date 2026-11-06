@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proposta Comercial & Técnica — Sustentação Operacional dos 4 Projetos | Instituto Andorinha</title>
+    <title>Proposta Comercial & Técnica — Implantação e Entrega Técnica dos 4 Projetos | Instituto Andorinha</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@300;400;500;600;700&family=Geist:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -693,6 +693,20 @@ tr:last-child td {
 
 .scope-item-content {
     flex: 1;
+}
+
+
+.matrix-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .matrix-grid {
+        grid-template-columns: 1fr !important;
+    }
 }
 
 /* Condições grid */
@@ -1722,15 +1736,15 @@ footer p {
                 <div class="hero-badges-slider" id="hero-badges-slider">
                     <span class="badge badge-slide-item" style="background-color: rgba(34, 197, 94, 0.12); color: #4ade80; border: 1px solid rgba(34, 197, 94, 0.3); font-weight: 700;">
                         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="margin-right: 4px; display: inline-block; vertical-align: middle;"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                        SUPORTE PREMIUM
+                        IMPLANTAÇÃO & SETUP
                     </span>
                     <span class="badge badge-slide-item" style="background-color: rgba(59, 130, 246, 0.12); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.3); font-weight: 700;">
                         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="margin-right: 4px; display: inline-block; vertical-align: middle;"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
                         ENGENHARIA DE DADOS
                     </span>
-                    <span class="badge badge-slide-item" style="background-color: rgba(245, 158, 11, 0.12); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.3); font-weight: 700;">
-                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="margin-right: 4px; display: inline-block; vertical-align: middle;"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
-                        TREINAMENTO
+                    <span class="badge badge-slide-item" style="background-color: rgba(168, 85, 247, 0.12); color: #c084fc; border: 1px solid rgba(168, 85, 247, 0.3); font-weight: 700;">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="margin-right: 4px; display: inline-block; vertical-align: middle;"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                        GARANTIA DE CÓDIGO & SERVIDOR
                     </span>
                 </div>
                 <!-- Indicador de Dots no Mobile -->
@@ -1764,7 +1778,7 @@ footer p {
                     <div class="active-project-pill" style="border-left: 1px solid var(--border); padding-left: 1.25rem;">
                         <span style="font-size: 0.65rem; color: var(--muted-foreground); text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 0.15rem;">Onboarding & Carga Inicial</span>
                         <strong style="color: #60a5fa; font-size: 0.88rem; font-family: var(--font-mono);">Quitado no Desenvolvimento</strong>
-                        <span style="font-size: 0.68rem; color: #a1a1aa; display: block; margin-top: 0.15rem;">Sustentação faturada a partir desta proposta</span>
+                        <span style="font-size: 0.68rem; color: #a1a1aa; display: block; margin-top: 0.15rem;">Integrado na plataforma em nuvem dos 4 projetos</span>
                     </div>
                 </div>
             </div>
@@ -1780,7 +1794,7 @@ footer p {
                 </div>
                 <div class="card-details">
                     Jiu-Jitsu, Funcional, Futebol, Vôlei, Zumba<br>
-                    Setup: R$ 810,50 (0,5 Salário Mínimo)
+                    Saneamento ETL & Ativação de Polos
                 </div>
             </div>
 
@@ -1795,7 +1809,7 @@ footer p {
                 </div>
                 <div class="card-details">
                     9 modalidades esportivas e formativas<br>
-                    Setup: R$ 810,50 (0,5 Salário Mínimo)
+                    Saneamento ETL & Ativação de Polos
                 </div>
             </div>
 
@@ -1810,7 +1824,7 @@ footer p {
                 </div>
                 <div class="card-details">
                     8 modalidades em campo e quadra<br>
-                    Setup: R$ 810,50 (0,5 Salário Mínimo)
+                    Saneamento ETL & Ativação de Polos
                 </div>
             </div>
         </div>
@@ -1879,9 +1893,9 @@ footer p {
                 <table>
                     <thead>
                         <tr>
-                            <th style="width: 10%">Frente</th>
-                            <th style="width: 28%">Módulo</th>
-                            <th>Escopo e Detalhamento Técnico</th>
+                            <th style="width: 12%">Tipo</th>
+                            <th style="width: 30%">Módulo</th>
+                            <th>Escopo e Detalhamento da Entrega</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -1893,27 +1907,27 @@ footer p {
                         <tr>
                             <td><span class="badge" style="background: rgba(59, 130, 246, 0.15); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.3); font-size: 0.65rem;">Setup</span></td>
                             <td style="font-weight: 600;">02. Parametrização & Enturmação Algorítmica</td>
-                            <td>Cadastro e estruturação da grade de polos, modalidades esportivas e turnos. Execução de rotinas algorítmicas que alocam centenas de alunos em suas respectivas turmas por idade e proximidade, eliminando a digitação manual da coordenação.</td>
+                            <td>Cadastro e estruturação da grade de 64 polos esportivos, modalidades e turnos. Execução de rotinas algorítmicas que alocam milhares de alunos em suas respectivas turmas por idade e proximidade, eliminando digitação manual.</td>
                         </tr>
                         <tr>
-                            <td><span class="badge" style="background: rgba(34, 197, 94, 0.15); color: #4ade80; border: 1px solid rgba(34, 197, 94, 0.3); font-size: 0.65rem;">Recorrente</span></td>
-                            <td style="font-weight: 600;">03. Compliance & Termos de Fomento</td>
-                            <td>Governança das travas do plano de trabalho (ex: teto estrito de 100 vagas por polo para mitigação de glosa), geração padronizada de pautas oficiais de presença em formato A4 prontas para impressão e exportação estruturada de dados de auditoria.</td>
+                            <td><span class="badge" style="background: rgba(56, 189, 248, 0.15); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.3); font-size: 0.65rem;">Unificação</span></td>
+                            <td style="font-weight: 600;">03. Unificação & Operação dos 4 Projetos em Nuvem</td>
+                            <td>Consolidação das bases de dados de Palmas, Ellos, Esporte para Sempre e Integração Esportiva em uma plataforma única, garantindo que os 64 polos operem com as mesmas regras, pautas A4 e garantia técnica.</td>
                         </tr>
                         <tr>
-                            <td><span class="badge" style="background: rgba(34, 197, 94, 0.15); color: #4ade80; border: 1px solid rgba(34, 197, 94, 0.3); font-size: 0.65rem;">Recorrente</span></td>
-                            <td style="font-weight: 600;">04. Comunicação Ativa & Relacionamento (WhatsApp)</td>
-                            <td>Organização e higienização das bases de contatos dos polos, régua de disparos automáticos de credenciais de login para coordenadores e professores, com suporte direto de primeiro nível (N1) para desbloqueio, dúvidas de acesso e rotinas.</td>
+                            <td><span class="badge" style="background: rgba(34, 197, 94, 0.15); color: #4ade80; border: 1px solid rgba(34, 197, 94, 0.3); font-size: 0.65rem;">Entrega</span></td>
+                            <td style="font-weight: 600;">04. Emissão Autônoma de Pautas de Frequência A4</td>
+                            <td>Disponibilização do motor de geração de pautas oficiais de presença no padrão A4 pronto para impressão física e assinatura dos alunos nos 64 núcleos esportivos.</td>
                         </tr>
                         <tr>
-                            <td><span class="badge" style="background: rgba(34, 197, 94, 0.15); color: #4ade80; border: 1px solid rgba(34, 197, 94, 0.3); font-size: 0.65rem;">Recorrente</span></td>
-                            <td style="font-weight: 600;">05. Capacitação & Tutoriais de Campo</td>
-                            <td>Acesso à plataforma dedicada /tutorial-professores com vídeos instrucionais gravados em formato vertical (9:16 mobile), manuais ilustrados de rotina e sessões assistidas de homologação diretamente com a coordenação geral.</td>
+                            <td><span class="badge" style="background: rgba(168, 85, 247, 0.15); color: #c084fc; border: 1px solid rgba(168, 85, 247, 0.3); font-size: 0.65rem;">Garantia</span></td>
+                            <td style="font-weight: 600;">05. Garantia Técnica Contínua de Código</td>
+                            <td>Garantia permanente contra bugs, defeitos de software ou inconsistências de código na plataforma entregue, com correção imediata sem custos adicionais.</td>
                         </tr>
                         <tr>
-                            <td><span class="badge" style="background: rgba(34, 197, 94, 0.15); color: #4ade80; border: 1px solid rgba(34, 197, 94, 0.3); font-size: 0.65rem;">Recorrente</span></td>
-                            <td style="font-weight: 600;">06. Sustentação N2/N3 & Servidor Cloud</td>
-                            <td>Monitoramento contínuo de performance e integridade do banco de dados Supabase Pro / PostgreSQL, rotinas periódicas de snapshot/backup, blindagem de acessos via RLS e canal prioritário de atendimento à presidência e diretoria.</td>
+                            <td><span class="badge" style="background: rgba(52, 211, 153, 0.15); color: #34d399; border: 1px solid rgba(52, 211, 153, 0.3); font-size: 0.65rem;">Servidor</span></td>
+                            <td style="font-weight: 600;">06. Infraestrutura Cloud & Uptime de Servidor</td>
+                            <td>Monitoramento contínuo de estabilidade do banco de dados Supabase Pro, isolamento multi-tenant seguro com Row Level Security (RLS) e rotinas de backup em nuvem.</td>
                         </tr>
                     </tbody>
                 </table>
@@ -1934,45 +1948,45 @@ footer p {
                         <h4>02. Parametrização & Enturmação Algorítmica</h4>
                         <span class="badge" style="font-size: 0.62rem; color: #60a5fa; background: rgba(59, 130, 246, 0.12);">Setup</span>
                     </div>
-                    <p>Configuração dos polos e modalidades. Algoritmo inteligente que distribui centenas de beneficiários nas turmas por idade e turno, eliminando a digitação manual.</p>
+                    <p>Configuração dos polos e modalidades. Algoritmo inteligente que distribui milhares de beneficiários nas turmas por idade e turno, eliminando a digitação manual.</p>
+                </div>
+
+                <div class="mobile-module-card" style="border-left: 3px solid #38bdf8;">
+                    <div class="mobile-card-header">
+                        <h4>03. Unificação dos 4 Projetos em Nuvem</h4>
+                        <span class="badge" style="font-size: 0.62rem; color: #38bdf8; background: rgba(56, 189, 248, 0.12);">Unificação</span>
+                    </div>
+                    <p>Consolidação das bases de Palmas, Ellos, Esporte para Sempre e Integração Esportiva em uma plataforma única, operando os 64 polos com pautas A4 e garantia técnica.</p>
                 </div>
 
                 <div class="mobile-module-card" style="border-left: 3px solid #22c55e;">
                     <div class="mobile-card-header">
-                        <h4>03. Compliance & Termos de Fomento</h4>
-                        <span class="badge" style="font-size: 0.62rem; color: #4ade80; background: rgba(34, 197, 94, 0.12);">Recorrente</span>
+                        <h4>04. Pautas Oficiais de Frequência A4</h4>
+                        <span class="badge" style="font-size: 0.62rem; color: #4ade80; background: rgba(34, 197, 94, 0.12);">Entrega</span>
                     </div>
-                    <p>Travas do plano de trabalho (100 vagas/polo), emissão de pautas oficiais de presença em formato A4 para assinatura física e suporte na extração de relatórios de auditoria.</p>
+                    <p>Motor de exportação de listas de presença oficiais no padrão A4 pronto para impressão física e coleta de assinaturas nos 64 núcleos atendidos.</p>
                 </div>
 
-                <div class="mobile-module-card" style="border-left: 3px solid #22c55e;">
+                <div class="mobile-module-card" style="border-left: 3px solid #a855f7;">
                     <div class="mobile-card-header">
-                        <h4>04. Comunicação Ativa & Suporte (WhatsApp)</h4>
-                        <span class="badge" style="font-size: 0.62rem; color: #4ade80; background: rgba(34, 197, 94, 0.12);">Recorrente</span>
+                        <h4>05. Garantia Técnica Contínua de Código</h4>
+                        <span class="badge" style="font-size: 0.62rem; color: #c084fc; background: rgba(168, 85, 247, 0.12);">Garantia</span>
                     </div>
-                    <p>Higienização de contatos, disparo de credenciais para coordenadores e professores, com suporte direto no WhatsApp para primeiro login e rotinas do aplicativo.</p>
+                    <p>Garantia contínua contra bugs, falhas lógicas ou travamentos de sistema na plataforma entregue, com correção técnica prioritária sem custo adicional.</p>
                 </div>
 
-                <div class="mobile-module-card" style="border-left: 3px solid #22c55e;">
+                <div class="mobile-module-card" style="border-left: 3px solid #34d399;">
                     <div class="mobile-card-header">
-                        <h4>05. Capacitação & Tutoriais de Campo</h4>
-                        <span class="badge" style="font-size: 0.62rem; color: #4ade80; background: rgba(34, 197, 94, 0.12);">Recorrente</span>
+                        <h4>06. Infraestrutura Cloud & Uptime de Servidor</h4>
+                        <span class="badge" style="font-size: 0.62rem; color: #34d399; background: rgba(52, 211, 153, 0.12);">Servidor</span>
                     </div>
-                    <p>Central /tutorial-professores com vídeos instrucionais verticais (9:16 mobile), manuais práticos e acompanhamento assistido das primeiras chamadas nos núcleos.</p>
-                </div>
-
-                <div class="mobile-module-card" style="border-left: 3px solid #22c55e;">
-                    <div class="mobile-card-header">
-                        <h4>06. Sustentação Técnica N2/N3 & Servidor Cloud</h4>
-                        <span class="badge" style="font-size: 0.62rem; color: #4ade80; background: rgba(34, 197, 94, 0.12);">Recorrente</span>
-                    </div>
-                    <p>Monitoramento proativo do banco Supabase Pro, rotinas de backup, isolamento de dados com RLS e canal prioritário direto com o arquiteto da solução.</p>
+                    <p>Monitoramento de estabilidade do Supabase Pro, políticas de segurança de dados com Row Level Security (RLS) e rotinas automáticas de backup em nuvem.</p>
                 </div>
             </div>
 
             <!-- Banner de Divisão de Governança -->
             <div class="gov-banner">
-                <strong>Divisão de Responsabilidades (Governança & Suporte):</strong> A aplicação de campo das pesquisas de satisfação e a elaboração/assinatura dos relatórios trimestrais de prestação de contas são de responsabilidade da equipe gestora da Andorinha/CAPITA. O contrato contempla a disponibilização da infraestrutura digital, extração estruturada dos dados no banco e suporte técnico contínuo à coordenação.
+                <strong>Divisão de Responsabilidades:</strong> A contratação compreende a engenharia de dados, implantação completa dos 64 polos e a garantia técnica contínua de código e servidor em nuvem. O atendimento operacional diário de campo a professores e alunos não está incluso no escopo da plataforma.
             </div>
         </section>
 
@@ -1993,7 +2007,7 @@ footer p {
                             <h4 style="color: #fde68a; font-weight: 700; margin-bottom: 0;">Trava de Carga Única e Integridade de Dados</h4>
                             <span class="badge" style="background: rgba(245, 158, 11, 0.2); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.4); font-size: 0.65rem; font-weight: 700;">REGRA DE ESCOPO</span>
                         </div>
-                        <p style="color: #e4e4e7; line-height: 1.5; font-size: 0.85rem; margin: 0;">O valor de onboarding bonificado (meio salário mínimo por projeto) contempla <strong>1 (um) ciclo completo de saneamento, higienização e migração da base definitiva entregue pela Andorinha</strong>. Retrabalhos causados por múltiplos envios de novas versões de planilhas após a carga no banco serão faturados à parte como hora técnica avulsa.</p>
+                        <p style="color: #e4e4e7; line-height: 1.5; font-size: 0.85rem; margin: 0;">A contratação contempla <strong>1 (um) ciclo completo de saneamento, higienização e migração da base definitiva entregue pela Andorinha</strong>. Portanto, a coordenação deve homologar a planilha oficial antes do disparo da esteira de migração.</p>
                     </div>
                 </div>
             </div>
@@ -2001,43 +2015,106 @@ footer p {
 
         <!-- 3. Fluxo Operacional -->
         <section id="operacoes">
-            <h2><span>03.</span> Fluxo Operacional da Solução</h2>
-            <p style="color: var(--muted-foreground); margin-bottom: 1.5rem;">Como a operação será conduzida de ponta a ponta desde a entrada dos 3 novos projetos até a sustentação contínua dos 4 núcleos:</p>
-            
+            <h2><span>03.</span> Matriz de Escopo & Fronteira de Suporte</h2>
+            <p style="color: var(--muted-foreground); margin-bottom: 1.25rem;">
+                Para assegurar previsibilidade e transparência orçamentária, a contratação estabelece uma fronteira técnica estrita entre a garantia permanente de tecnologia (inclusa no valor único) e o atendimento operacional de campo:
+            </p>
+
+            <div class="matrix-grid">
+                <!-- O que está Incluso -->
+                <div style="border: 1px solid rgba(34, 197, 94, 0.3); background: rgba(34, 197, 94, 0.03); border-radius: var(--radius); padding: 1.25rem;">
+                    <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem; color: #4ade80; font-weight: 700; font-size: 0.95rem;">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        Incluso na Entrega dos 4 Projetos
+                    </div>
+                    <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.65rem; font-size: 0.8rem; color: var(--foreground);">
+                        <li style="display: flex; gap: 0.5rem; align-items: flex-start;">
+                            <span style="color: #4ade80; font-weight: 800;">✓</span>
+                            <span><strong>Engenharia de Dados (ETL):</strong> Saneamento, deduplicação, validação de CPFs e enturmação algorítmica dos 64 polos.</span>
+                        </li>
+                        <li style="display: flex; gap: 0.5rem; align-items: flex-start;">
+                            <span style="color: #4ade80; font-weight: 800;">✓</span>
+                            <span><strong>Unificação dos 4 Projetos em Nuvem:</strong> Consolidação e integração das bases de Palmas, Ellos, Esporte para Sempre e Integração Esportiva operando conjuntamente.</span>
+                        </li>
+                        <li style="display: flex; gap: 0.5rem; align-items: flex-start;">
+                            <span style="color: #4ade80; font-weight: 800;">✓</span>
+                            <span><strong>Garantia Técnica de Código:</strong> Correção contínua de quaisquer bugs lógicos, erros de software ou falhas no sistema.</span>
+                        </li>
+                        <li style="display: flex; gap: 0.5rem; align-items: flex-start;">
+                            <span style="color: #4ade80; font-weight: 800;">✓</span>
+                            <span><strong>Infraestrutura & Nuvem:</strong> Monitoramento de estabilidade, políticas de integridade e rotinas de backup no Supabase.</span>
+                        </li>
+                        <li style="display: flex; gap: 0.5rem; align-items: flex-start;">
+                            <span style="color: #4ade80; font-weight: 800;">✓</span>
+                            <span><strong>Pautas de Frequência:</strong> Exportação autônoma de relatórios e pautas oficiais prontas para impressão A4.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- O que NÃO está Incluso -->
+                <div style="border: 1px solid rgba(239, 68, 68, 0.25); background: rgba(239, 68, 68, 0.02); border-radius: var(--radius); padding: 1.25rem;">
+                    <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem; color: #f87171; font-weight: 700; font-size: 0.95rem;">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg>
+                        Não Incluso (Suporte Operacional de Campo)
+                    </div>
+                    <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.65rem; font-size: 0.8rem; color: var(--muted-foreground);">
+                        <li style="display: flex; gap: 0.5rem; align-items: flex-start;">
+                            <span style="color: #f87171; font-weight: 800;">✕</span>
+                            <span><strong>Treinamentos In Loco ou Atividades Presenciais</strong></span>
+                        </li>
+                        <li style="display: flex; gap: 0.5rem; align-items: flex-start;">
+                            <span style="color: #f87171; font-weight: 800;">✕</span>
+                            <span><strong>Importação de Tabelas Adicionais:</strong> Novas cargas, importações de novas planilhas ou tabelas complementares enviadas após a homologação da base oficial inicial.</span>
+                        </li>
+                        <li style="display: flex; gap: 0.5rem; align-items: flex-start;">
+                            <span style="color: #f87171; font-weight: 800;">✕</span>
+                            <span><strong>Geração de Relatórios Via-Código:</strong> Construção manual de relatórios customizados via scripts/código além dos relatórios e pautas oficiais A4 que a plataforma já emite autonomamente.</span>
+                        </li>
+                        <li style="display: flex; gap: 0.5rem; align-items: flex-start;">
+                            <span style="color: #f87171; font-weight: 800;">✕</span>
+                            <span><strong>Atendimento WhatsApp N1:</strong> Atendimento diário a professores, pais ou instrutores para tirar dúvidas de operação.</span>
+                        </li>
+                        <li style="display: flex; gap: 0.5rem; align-items: flex-start;">
+                            <span style="color: #f87171; font-weight: 800;">✕</span>
+                            <span><strong>Inserções Manuais Posteriores:</strong> Cadastro ou remoção manual contínua de alunos após a homologação das bases oficiais.</span>
+                        </li>
+                        <li style="display: flex; gap: 0.5rem; align-items: flex-start;">
+                            <span style="color: #f87171; font-weight: 800;">✕</span>
+                            <span><strong>Reenturmações Pedagógicas Manuais:</strong> Reorganização de turmas devido a trocas e remanejamentos diários nos polos.</span>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Fluxo em 4 Etapas -->
             <div class="step-list">
                 <div class="step-item">
                     <span class="step-num">1</span>
                     <div class="step-content">
-                        <h4>Recepção das Bases Oficiais & Diagnóstico de Dados</h4>
-                        <p>Recebimento das planilhas consolidadas dos 3 novos projetos. Diagnóstico imediato de campos faltantes, validação de regras de fomento e definição dos parâmetros de cada polo.</p>
+                        <h4>Recepção das Bases Oficiais & Validação de Campos</h4>
+                        <p>Recebimento das planilhas brutas dos novos projetos e diagnóstico imediato de integridade documental para fomento.</p>
                     </div>
                 </div>
                 <div class="step-item">
                     <span class="step-num">2</span>
                     <div class="step-content">
-                        <h4>Higienização, Parsing & Enturmação Automatizada</h4>
-                        <p>Execução dos scripts de ETL para saneamento das bases, desduplicação de registros e alocação algorítmica de milhares de alunos em suas respectivas turmas e horários.</p>
+                        <h4>Higienização ETL & Enturmação Automatizada</h4>
+                        <p>Execução de scripts algorítmicos para saneamento, validação de CPFs e alocação por polo, faixa etária e turno.</p>
                     </div>
                 </div>
                 <div class="step-item">
                     <span class="step-num">3</span>
                     <div class="step-content">
-                        <h4>Dry-Run & Carga Transacional em Banco Definitivo</h4>
-                        <p>Simulação assistida sem impacto em dados reais. Após a validação estrutural com a coordenação, execução dos lotes transacionais definitivos no PostgreSQL.</p>
+                        <h4>Homologação das Bases & Carga Transacional em Produção</h4>
+                        <p>Simulação em ambiente isolado, conferência final das listas e gravação definitiva no PostgreSQL do Supabase.</p>
                     </div>
                 </div>
                 <div class="step-item">
                     <span class="step-num">4</span>
                     <div class="step-content">
-                        <h4>Ativação de Mensageria & Acesso de Professores (WhatsApp)</h4>
-                        <p>Disparo automático e higienizado dos links de acesso e credenciais para coordenadores e instrutores de campo, com suporte N1 imediato para primeiro login.</p>
-                    </div>
-                </div>
-                <div class="step-item">
-                    <span class="step-num">5</span>
-                    <div class="step-content">
-                        <h4>Sustentação Mensal, Compliance & Suporte Contínuo N2/N3</h4>
-                        <p>Operação recorrente ativa cobrindo os 4 projetos integrados: geração de pautas A4 para impressão, monitoramento da infraestrutura cloud e canal prioritário para a diretoria.</p>
+                        <h4>Entrega Operacional & Início da Garantia Técnica</h4>
+                        <p>Ambiente ativo com acesso para coordenadores, geração de pautas A4 liberada e ativação da garantia contínua de código e servidor.</p>
                     </div>
                 </div>
             </div>
@@ -2276,35 +2353,59 @@ footer p {
             
             <!-- 1. Card dos Valores (Vem Primeiro no Topo) -->
             <div class="investment-values-card">
-                <div class="calc-title" style="font-size: 1.15rem; font-weight: 700; color: #fafafa; margin-bottom: 1.25rem;">Total da Contratação</div>
+                <div class="calc-title" style="font-size: 1.15rem; font-weight: 700; color: #fafafa; margin-bottom: 1.25rem;">Total da Contratação • Escopo Fechado</div>
 
                 <div class="investment-body">
-                    <!-- Fatura de Start Imediato -->
+                    <!-- Opção 1: À Vista -->
                     <div class="invest-item">
-                        <div class="text-muted invest-label">Fatura de Start Imediato (PJ à vista)</div>
-                        <div class="total-value" style="color: #4ade80; font-size: 1.95rem; font-family: var(--font-mono); font-weight: 800; letter-spacing: -0.02em; margin-top: 0.2rem;">R$ 8.915,50</div>
-                        <div class="text-muted invest-desc">Contempla os 3 Onboardings novos (R$ 2.431,50) + 1º Mês de Suporte dos 4 Projetos (R$ 6.484,00).</div>
+                        <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem;">
+                            <div class="text-muted invest-label">Opção 01 • À Vista (Start Imediato)</div>
+                            <span class="badge" style="background: rgba(34, 197, 94, 0.15); color: #4ade80; border: 1px solid rgba(34, 197, 94, 0.35); font-size: 0.68rem; margin: 0; font-weight: 700;">Melhor Condição</span>
+                        </div>
+                        <div class="total-value" style="color: #4ade80; font-size: 2.1rem; font-family: var(--font-mono); font-weight: 800; letter-spacing: -0.02em; margin-top: 0.2rem;">R$ 6.484,00</div>
+                        <div class="text-muted invest-desc" style="font-size: 0.8rem; margin-top: 0.3rem;">
+                            Condição com desconto para liquidação única no start do projeto. Contempla a entrega técnica dos 4 projetos em produção com garantia permanente de código e servidor.
+                        </div>
                     </div>
 
-                    <!-- Recorrência Mensal -->
+                    <!-- Opção 2: Parcelamento 50/50 -->
                     <div class="invest-item">
-                        <div class="text-muted invest-label">Recorrência Mensal (Mês 2 em diante)</div>
-                        <div style="font-family: var(--font-mono); font-size: 1.4rem; font-weight: 700; color: #60a5fa; margin-top: 0.2rem;">R$ 6.484,00 / mês</div>
-                        <div class="text-muted invest-desc">Equivalente a exatamente 1 salário mínimo (R$ 1.621,00) por projeto ativo em produção.</div>
+                        <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem;">
+                            <div class="text-muted invest-label">Opção 02 • Parcelamento em 2x (50% Entrada + 50% Entrega)</div>
+                            <span class="badge" style="background: rgba(59, 130, 246, 0.15); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.35); font-size: 0.68rem; margin: 0; font-weight: 700;">Marcos de Entrega</span>
+                        </div>
+                        <div style="font-family: var(--font-mono); font-size: 1.45rem; font-weight: 700; color: #60a5fa; margin-top: 0.2rem;">
+                            R$ 7.000,00 <span style="font-size: 0.85rem; color: #93c5fd; font-weight: 500;">(2 parcelas de R$ 3.500,00)</span>
+                        </div>
+                        <div class="text-muted invest-desc" style="font-size: 0.8rem; margin-top: 0.3rem; line-height: 1.4;">
+                            • <strong>1ª Parcela (50% no Início): R$ 3.500,00</strong> — início imediato dos scripts de engenharia, saneamento ETL e modelagem relacional.<br>
+                            • <strong>2ª Parcela (50% na Entrega): R$ 3.500,00</strong> — liquidada após a homologação final das 4 bases rodando com pautas prontas em produção.
+                        </div>
+                    </div>
+
+                    <!-- Recorrência de Suporte Zero -->
+                    <div class="invest-item">
+                        <div class="text-muted invest-label">Mensalidade de Suporte Operacional</div>
+                        <div style="font-family: var(--font-mono); font-size: 1.15rem; font-weight: 700; color: #a1a1aa; margin-top: 0.2rem;">
+                            R$ 0,00 / mês <span style="font-size: 0.72rem; color: #4ade80; font-weight: 600; text-transform: uppercase; margin-left: 0.4rem; background: rgba(34, 197, 94, 0.12); padding: 0.15rem 0.5rem; border-radius: 9999px; border: 1px solid rgba(34, 197, 94, 0.3);">Sem Custos Fixos Mensais</span>
+                        </div>
+                        <div class="text-muted invest-desc">
+                            O Instituto não assume nenhum contrato de suporte mensal obrigatório. Garantia técnica de código (bugs) e estabilidade de servidor inclusas na entrega. Foco exclusivo na entrega da infraestrutura e código rodando em produção.
+                        </div>
                     </div>
 
                     <!-- Infraestrutura Cloud -->
                     <div class="invest-item">
                         <div class="text-muted invest-label">Infraestrutura Cloud em Nuvem</div>
                         <div style="font-family: var(--font-mono); font-size: 1.05rem; font-weight: 700; color: #ffffff; margin-top: 0.2rem;">US$ 20,00 / mês a princípio</div>
-                        <div class="text-muted invest-desc">Banco Supabase Pro faturado a preço de custo ou direto no cartão corporativo.</div>
+                        <div class="text-muted invest-desc">Banco Supabase Pro dedicado faturado a preço de custo ou direto no cartão corporativo do Instituto Andorinha.</div>
                     </div>
 
                     <!-- Botão WhatsApp CTA -->
                     <div style="margin-top: 1.25rem;">
-                        <a href="https://wa.me/5563992080000?text=Ol%C3%A1%20J%C3%B4nathas%2C%20analisamos%20a%20proposta%20de%20sustenta%C3%A7%C3%A3o%20dos%204%20projetos%20e%20aprovamos%20o%20in%C3%ADcio%20imediato." target="_blank" class="btn btn-primary" style="width: 100%; justify-content: center; text-align: center; font-weight: 700; background: #22c55e; border-color: #22c55e; color: #000000; text-decoration: none; padding: 0.85rem; font-size: 0.95rem; box-shadow: 0 4px 15px rgba(34, 197, 94, 0.25);">
+                        <a href="https://wa.me/5563992080000?text=Ol%C3%A1%20J%C3%B4nathas%2C%20analisamos%20a%20proposta%20de%20implanta%C3%A7%C3%A3o%20dos%204%20projetos%20e%20aprovamos%20o%20in%C3%ADcio%20imediato." target="_blank" class="btn btn-primary" style="width: 100%; justify-content: center; text-align: center; font-weight: 700; background: #22c55e; border-color: #22c55e; color: #000000; text-decoration: none; padding: 0.85rem; font-size: 0.95rem; box-shadow: 0 4px 15px rgba(34, 197, 94, 0.25);">
                             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="margin-right: 6px; display: inline-block; vertical-align: middle;"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
-                            Aprovar Proposta no WhatsApp
+                            Aprovar Implantação dos 4 Projetos no WhatsApp
                         </a>
                     </div>
                 </div>
@@ -2332,7 +2433,7 @@ footer p {
                 <div class="scope-details-card">
                     <div class="calc-title" style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 1rem; color: #fafafa; font-size: 0.95rem;">
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#4ade80" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-                        <span>Escopo Consolidado do Contrato & Entregáveis</span>
+                        <span>Detalhamento dos Entregáveis Inclusos no Valor</span>
                     </div>
 
                     <div class="scope-items-list">
@@ -2342,9 +2443,9 @@ footer p {
                                 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
                             </div>
                             <div class="scope-item-content">
-                                <div style="color: #fafafa; font-weight: 600; font-size: 0.85rem;">Onboarding Completo dos 3 Novos Projetos</div>
+                                <div style="color: #fafafa; font-weight: 600; font-size: 0.85rem;">Implantação Completa dos 3 Novos Projetos (Ellos + Esporte + Integração)</div>
                                 <div class="text-muted" style="font-size: 0.75rem; margin-top: 0.2rem; line-height: 1.4;">
-                                    Saneamento ETL, migração em banco e enturmação algorítmica (Ellos + Esporte para Sempre + Integração).
+                                    Saneamento ETL, validação de CPFs, estruturação dos 44 novos polos, 4.400 beneficiários e enturmação algorítmica.
                                 </div>
                             </div>
                         </div>
@@ -2355,9 +2456,9 @@ footer p {
                                 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
                             </div>
                             <div class="scope-item-content">
-                                <div style="color: #fafafa; font-weight: 600; font-size: 0.85rem;">Setup de Palmas Quitado no Desenvolvimento Inicial</div>
+                                <div style="color: #fafafa; font-weight: 600; font-size: 0.85rem;">Unificação e Operação dos 4 Projetos em Nuvem</div>
                                 <div class="text-muted" style="font-size: 0.75rem; margin-top: 0.2rem; line-height: 1.4;">
-                                    O onboarding e a carga inicial do Projeto 1 foram remunerados junto ao desenvolvimento da plataforma (sem nova cobrança); a sustentação contínua de Palmas, prestada até aqui sem remuneração mensal de suporte, passa a ser formalizada e coberta neste contrato integrado.
+                                    Consolidação das bases de dados de Palmas, Ellos, Esporte para Sempre e Integração Esportiva em uma plataforma única, garantindo que os 64 polos operem com as mesmas regras, pautas A4 e garantia técnica.
                                 </div>
                             </div>
                         </div>
@@ -2368,9 +2469,9 @@ footer p {
                                 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
                             </div>
                             <div class="scope-item-content">
-                                <div style="color: #fafafa; font-weight: 600; font-size: 0.85rem;">Sustentação Operacional Integrada dos 4 Projetos</div>
+                                <div style="color: #fafafa; font-weight: 600; font-size: 0.85rem;">Garantia Técnica Contínua de Código & Infraestrutura</div>
                                 <div class="text-muted" style="font-size: 0.75rem; margin-top: 0.2rem; line-height: 1.4;">
-                                    Suporte técnico N2/N3, governança de fomento, pautas A4, WhatsApp N1 e tutoriais de campo.
+                                    Correção contínua de quaisquer erros ou falhas lógicas no software (código) e monitoramento de estabilidade do servidor em nuvem.
                                 </div>
                             </div>
                         </div>
@@ -2383,7 +2484,7 @@ footer p {
                             <div class="scope-item-content">
                                 <div style="color: #fafafa; font-weight: 600; font-size: 0.85rem;">Servidor Cloud Dedicado (Supabase Pro)</div>
                                 <div class="text-muted" style="font-size: 0.75rem; margin-top: 0.2rem; line-height: 1.4;">
-                                    Infraestrutura dedicada de banco em nuvem inicialmente por US$ 20,00 / mês (a preço de custo).
+                                    Infraestrutura isolada de alta performance faturada a preço de custo (~US$ 20,00 / mês) sem margem de intermediação.
                                 </div>
                             </div>
                         </div>
@@ -2396,32 +2497,32 @@ footer p {
         <section id="condicoes">
             <h2><span>07.</span> Condições Gerais da Contratação</h2>
             <div class="cond-list">
-                <div class="cond-item">
-                    <h4>Relação Contratual B2B & Regime 100% Pré-Pago</h4>
-                    <p>Contratação estabelecida estritamente na modalidade Pessoa Jurídica (PJ) com emissão de Nota Fiscal de Serviços (NFS-e). Por diretriz operacional, todo o trabalho é realizado em regime pré-pago: o início dos scripts de setup e a sustentação mensal são condicionados à liquidação prévia do faturamento correspondente.</p>
-                </div>
-
-                <div class="cond-item" style="border: 1px solid rgba(59, 130, 246, 0.4); background: rgba(59, 130, 246, 0.04);">
+                <div class="cond-item" style="border: 1px solid rgba(34, 197, 94, 0.4); background: rgba(34, 197, 94, 0.03);">
                     <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.25rem;">
-                        <h4 style="margin-bottom: 0; color: #93c5fd;">Carência Inicial & Rescisão Contratual</h4>
-                        <span style="font-size: 0.65rem; background: rgba(59, 130, 246, 0.2); color: #93c5fd; border: 1px solid rgba(59, 130, 246, 0.35); padding: 0.1rem 0.45rem; border-radius: 9999px; font-weight: 700; text-transform: uppercase;">Carência 60 Dias</span>
+                        <h4 style="margin-bottom: 0; color: #4ade80;">Condições de Liquidação (À Vista ou Parcelado)</h4>
+                        <span style="font-size: 0.65rem; background: rgba(34, 197, 94, 0.2); color: #4ade80; border: 1px solid rgba(34, 197, 94, 0.35); padding: 0.1rem 0.45rem; border-radius: 9999px; font-weight: 700; text-transform: uppercase;">Flexibilidade</span>
                     </div>
-                    <p>Em virtude da bonificação de 50% concedida na taxa de onboarding dos 3 novos projetos (meio salário mínimo por projeto), estabelece-se uma <strong>carência mínima inicial de 60 dias (2 primeiros ciclos mensais de operação)</strong>. Após esse período de amortização do setup, o contrato poderá ser rescindido a qualquer tempo mediante aviso prévio formal de 30 dias, sem devolução proporcional do ciclo vigente.</p>
+                    <p>O pagamento oferece duas alternativas: <strong>À Vista por R$ 6.484,00</strong> com desconto para início imediato; ou <strong>Parcelado em 2x de R$ 3.500,00 (Total de R$ 7.000,00)</strong>, sendo 50% de entrada no start dos scripts ETL e 50% após a homologação final das 4 bases rodando em produção.</p>
                 </div>
 
                 <div class="cond-item">
-                    <h4>Trava de Carga Única de Dados</h4>
-                    <p>A taxa de onboarding de R$ 810,50 por projeto cobre 1 (um) ciclo completo de ingestão e conferência da base oficial definitiva entregue pelo cliente. Retrabalhos decorrentes de múltiplos reenvios de planilhas após a carga realizada serão faturados à parte como horas técnicas avulsas.</p>
+                    <h4>Garantia Técnica Contínua de Código</h4>
+                    <p>Todo o código-fonte desenvolvido possui garantia contínua contra bugs, erros de sintaxe ou inconsistências de sistema. Qualquer falha lógica ou travamento decorrente do software será corrigido prontamente sem custo adicional ao Instituto.</p>
                 </div>
 
                 <div class="cond-item">
-                    <h4>SLA de Atendimento & Suporte Direto</h4>
-                    <p>Janela de atendimento de segunda a sexta-feira, das 09h às 18h (dias úteis), com tempo de primeira resposta de até 4 horas úteis para incidentes operacionais da coordenação e suporte de campo. Atendimento em canal direto prioritário com o arquiteto da solução.</p>
+                    <h4>Delimitação de Suporte Operacional</h4>
+                    <p>A taxa única cobre a engenharia de dados, implantação dos polos e garantia técnica de código/servidor. Não inclui suporte operacional diário de campo a professores e coordenadores. A gestão diária de alunos, rotinas de campo e comunicação com professores cabem com exclusividade à equipe do Instituto.</p>
                 </div>
 
                 <div class="cond-item">
-                    <h4>Custos de Servidor & Infraestrutura Cloud</h4>
-                    <p>A infraestrutura de banco de dados e servidores em nuvem (Supabase Pro) possui custo inicial estimado em <strong>US$ 20,00 / mês a princípio</strong>. Este encargo é de titularidade da contratante, podendo ser cadastrado diretamente no cartão corporativo da Andorinha ou repassado a preço de custo pela cotação oficial.</p>
+                    <h4>Infraestrutura Cloud & Custos em Nuvem</h4>
+                    <p>A infraestrutura de banco de dados e servidores em nuvem (Supabase Pro) possui custo estimado em <strong>US$ 20,00 / mês a princípio</strong>. Este encargo é de titularidade da contratante, podendo ser cadastrado diretamente no cartão corporativo do Instituto Andorinha ou repassado a preço de custo oficial.</p>
+                </div>
+
+                <div class="cond-item">
+                    <h4>Propriedade Integral dos Dados</h4>
+                    <p>A totalidade dos bancos de dados, cadastros de beneficiários, pautas geradas e registros operacionais são de propriedade exclusiva e irrevogável do Instituto Andorinha, garantindo total conformidade com a LGPD e autonomia de gestão.</p>
                 </div>
             </div>
         </section>
